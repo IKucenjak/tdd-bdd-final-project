@@ -43,4 +43,4 @@ def get_firefox():
     options = webdriver.FirefoxOptions()
     options.add_argument("--headless")
     return webdriver.Firefox(options=options)    
-    
+  
